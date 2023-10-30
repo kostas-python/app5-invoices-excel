@@ -6,6 +6,9 @@ from pathlib import Path
 
 filepaths = glob.glob("invoices/*.xlsx")
 
+
+# Create,format,style the pages
+
 for filepath in filepaths:
 
     pdf = FPDF(orientation="P", unit="mm", format="A4")
